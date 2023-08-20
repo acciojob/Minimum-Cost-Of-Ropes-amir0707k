@@ -1,6 +1,8 @@
+let inputValue = document.getElementById("rope-lengths");
+
 function calculateMinCost() {
   //your code here
-   const sortedArr = arr.slice().sort((a, b) => a - b);
+   const sortedArr = inputValue.slice().sort((a, b) => a - b);
     let totalCost = 0;
 
     while (sortedArr.length > 1) {
