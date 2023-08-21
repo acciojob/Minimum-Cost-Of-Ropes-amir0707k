@@ -12,4 +12,4 @@ function calculateMinCost() {
     arr.shift();
   }
   document.getElementById("result").innerText = ans;
-} 
+}
